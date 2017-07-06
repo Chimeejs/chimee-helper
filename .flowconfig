@@ -5,6 +5,7 @@
 [libs]
 ./node_modules/toxic-predicate-functions/lib/index.flow.js
 ./node_modules/toxic-utils/lib/index.flow.js
+./node_modules/chimee-helper-utils/lib/index.flow.js
 [options]
 
 [lints]
