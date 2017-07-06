@@ -1,4 +1,4 @@
 // @flow
 export * from 'toxic-utils';
 export * from 'toxic-predicate-functions';
-export * from './utils';
+export * from 'chimee-helper-utils';

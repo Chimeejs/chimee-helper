@@ -55,7 +55,7 @@ export default function (mode) {
     entry: 'src/index.js',
     banner,
     external (id) {
-      return !/min|umd|iife/.test(mode) && /babel-runtime|toxic-predicate-functions|toxic-utils/.test(id);
+      return !/min|umd|iife/.test(mode) && /node_modules/.test(id);
     },
     plugins: [
       babel(babelConfig[mode]),

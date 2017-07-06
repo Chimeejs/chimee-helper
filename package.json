@@ -1,16 +1,16 @@
 {
   "name": "chimee-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "utils of chimee",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "jsnext:main": "lib/index.mjs",
   "browser": "lib/index.browser.js",
   "scripts": {
-    "test": "jest --coverage && flow",
+    "test": "jest --coverage",
     "start": "jest --coverage --watch",
     "flow": "flow",
-    "lint": "flow && eslint ./src --fix",
+    "lint": "eslint ./src --fix",
     "precommit": "npm run lint",
     "prepush": "npm run test",
     "build": "npm run b-common && npm run b-es && npm run b-umd && npm run b-min",
@@ -36,6 +36,7 @@
   "homepage": "https://github.com/Chimeejs/chimee-helper#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
+    "chimee-helper-utils": "^0.1.0",
     "toxic-predicate-functions": "^0.1.2",
     "toxic-utils": "^0.1.3"
   },
