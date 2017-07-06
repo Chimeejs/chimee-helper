@@ -1,4 +1,4 @@
-const {version, name, author, license} = require('../package.json');
+const {version, name, author, license, dependencies} = require('../package.json');
 const banner = `
 /**
  * ${name} v${version}
@@ -50,12 +50,13 @@ const babelConfig = {
     babelrc: false
   }
 };
+const externalRegExp = new RegExp(Object.keys(dependencies).join('|'));
 export default function (mode) {
   return {
     entry: 'src/index.js',
     banner,
     external (id) {
-      return !/min|umd|iife/.test(mode) && /node_modules/.test(id);
+      return !/min|umd|iife/.test(mode) && externalRegExp.test(id);
     },
     plugins: [
       babel(babelConfig[mode]),
