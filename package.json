@@ -1,6 +1,6 @@
 {
   "name": "chimee-helper",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "helper of chimee",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -39,7 +39,7 @@
     "chimee-helper-dom": "^0.1.0",
     "chimee-helper-events": "^0.1.0",
     "chimee-helper-log": "^0.1.0",
-    "chimee-helper-utils": "^0.1.1",
+    "chimee-helper-utils": "^0.1.2",
     "toxic-predicate-functions": "^0.1.2",
     "toxic-utils": "^0.1.3"
   },
