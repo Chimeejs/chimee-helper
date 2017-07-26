@@ -1,6 +1,6 @@
 {
   "name": "chimee-helper",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "helper of chimee",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
