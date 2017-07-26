@@ -1,6 +1,6 @@
 {
   "name": "chimee-helper",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "helper of chimee",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/Chimeejs/chimee-helper#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "chimee-helper-dom": "^0.1.1",
+    "chimee-helper-dom": "^0.1.2",
     "chimee-helper-events": "^0.1.0",
     "chimee-helper-log": "^0.1.1",
     "chimee-helper-utils": "^0.1.3",
