@@ -1,7 +1,6 @@
 # chimee-helper
 
 [![Build Status](https://img.shields.io/travis/Chimeejs/chimee-helper/master.svg?style=flat-square)](https://travis-ci.org/Chimeejs/chimee-helper.svg?branch=master)
-[![Coverage Status](https://img.shields.io/coveralls/Chimeejs/chimee-helper/master.svg?style=flat-square)](https://coveralls.io/github/Chimeejs/chimee-helper?branch=master)
 [![npm](https://img.shields.io/npm/v/chimee-helper.svg?colorB=brightgreen&style=flat-square)](https://www.npmjs.com/package/chimee-helper)
 [![dependency Status](https://david-dm.org/Chimeejs/chimee-helper.svg)](https://david-dm.org/Chimeejs/chimee-helper)
 [![devDependency Status](https://david-dm.org/Chimeejs/chimee-helper/dev-status.svg)](https://david-dm.org/Chimeejs/chimee-helper?type=dev)
