@@ -5,3 +5,4 @@ export * from 'chimee-helper-utils';
 export * from 'chimee-helper-events';
 export * from 'chimee-helper-dom';
 export {default as Log} from 'chimee-helper-log';
+export {default as UAParser} from 'ua-parser-js';
