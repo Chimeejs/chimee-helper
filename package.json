@@ -41,7 +41,8 @@
     "chimee-helper-log": "^0.1.2",
     "chimee-helper-utils": "^0.2.0",
     "toxic-predicate-functions": "^0.1.2",
-    "toxic-utils": "^0.1.5"
+    "toxic-utils": "^0.1.5",
+    "ua-parser-js": "^0.7.14"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
