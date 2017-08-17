@@ -14,7 +14,7 @@ const babelConfig = {
   common: {
     presets: [
       'flow',
-      ['latest', {es2015: {modules: false}}]
+      ['env', {modules: false}]
     ],
     plugins: ['transform-runtime'],
     exclude: 'node_modules/**',
@@ -24,7 +24,7 @@ const babelConfig = {
   es: {
     presets: [
       'flow',
-      ['latest', {es2015: {modules: false}}]
+      ['env', {modules: false}]
     ],
     plugins: ['transform-runtime'],
     exclude: 'node_modules/**',
@@ -33,9 +33,7 @@ const babelConfig = {
   },
   umd: {
     presets: ['flow', 'es2015-rollup'],
-    plugins: ['transform-runtime'],
     exclude: 'node_modules/**',
-    runtimeHelpers: true,
     babelrc: false
   },
   iife: {
