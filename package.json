@@ -1,6 +1,6 @@
 {
   "name": "chimee-helper",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "helper of chimee",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/Chimeejs/chimee-helper#readme",
   "dependencies": {
     "babel-runtime": "^6.26.0",
-    "chimee-helper-dom": "^0.1.5",
+    "chimee-helper-dom": "^0.1.6",
     "chimee-helper-events": "^0.1.0",
     "chimee-helper-log": "^0.1.2",
     "chimee-helper-utils": "^0.2.0",
@@ -51,9 +51,9 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-flow": "^6.23.0",
-    "eslint": "^4.5.0",
+    "eslint": "^4.11.0",
     "eslint-plugin-flowtype": "^2.35.1",
-    "eslint-plugin-jest": "^21.0.0",
+    "eslint-plugin-jest": "^21.3.2",
     "flow-bin": "^0.54.1",
     "husky": "^0.14.1",
     "jest": "^21.0.1",
