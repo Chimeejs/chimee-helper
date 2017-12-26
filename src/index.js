@@ -6,4 +6,4 @@ export * from 'chimee-helper-events';
 export * from 'chimee-helper-dom';
 import Log from 'chimee-helper-log';
 import UAParser from 'ua-parser-js';
-export {Log, UAParser};
+export { Log, UAParser };

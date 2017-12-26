@@ -1,4 +1,4 @@
-const {version, name, author, license, dependencies} = require('../package.json');
+const { version, name, author, license, dependencies } = require('../package.json');
 const banner = `
 /**
  * ${name} v${version}
@@ -14,53 +14,53 @@ const babelConfig = {
   common: {
     presets: [
       'flow',
-      ['env', {modules: false}]
+      [ 'env', { modules: false }],
     ],
-    plugins: ['transform-runtime'],
+    plugins: [ 'transform-runtime' ],
     exclude: 'node_modules/**',
     runtimeHelpers: true,
-    babelrc: false
+    babelrc: false,
   },
   es: {
     presets: [
       'flow',
-      ['env', {modules: false}]
+      [ 'env', { modules: false }],
     ],
-    plugins: ['transform-runtime'],
+    plugins: [ 'transform-runtime' ],
     exclude: 'node_modules/**',
     runtimeHelpers: true,
-    babelrc: false
+    babelrc: false,
   },
   umd: {
-    presets: ['flow', 'es2015-rollup'],
+    presets: [ 'flow', 'es2015-rollup' ],
     exclude: 'node_modules/**',
-    babelrc: false
+    babelrc: false,
   },
   iife: {
-    presets: ['flow', 'es2015-rollup'],
+    presets: [ 'flow', 'es2015-rollup' ],
     plugins: [],
-    babelrc: false
+    babelrc: false,
   },
   min: {
-    presets: ['flow', 'es2015-rollup'],
+    presets: [ 'flow', 'es2015-rollup' ],
     exclude: 'node_modules/**',
     plugins: [],
-    babelrc: false
-  }
+    babelrc: false,
+  },
 };
 const externalRegExp = new RegExp(Object.keys(dependencies).join('|'));
-export default function (mode) {
+export default function(mode) {
   return {
     input: 'src/index.js',
     banner,
-    external (id) {
+    external(id) {
       return !/min|umd|iife/.test(mode) && externalRegExp.test(id);
     },
     plugins: [
       babel(babelConfig[mode]),
       flow(),
       resolve(),
-      commonjs()
-    ]
+      commonjs(),
+    ],
   };
-};
+}
