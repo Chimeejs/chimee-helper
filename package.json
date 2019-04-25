@@ -41,7 +41,7 @@
     "chimee-helper-log": "^0.1.3",
     "chimee-helper-utils": "^0.2.1",
     "toxic-predicate-functions": "^0.2.3",
-    "toxic-utils": "^0.3.0",
+    "toxic-utils": "^0.3.1",
     "ua-parser-js": "^0.7.18"
   },
   "devDependencies": {
